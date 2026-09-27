@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "id": "E",
+  "task": "Find a software opportunity for Chinese research master's students. Use only these synthetic facts; no web or interviews. Produce a verdict, evidence grouping, comparison of current alternatives and a concrete next step.",
+  "facts": [
+    {"id": "F1", "text": "Anonymous English-language developer forum user struggles with converting long notes into a table. Student identity and region unknown."},
+    {"id": "F2", "text": "A self-described Chinese master's student cannot find a highlighted quote. No matrix need is stated."},
+    {"id": "F3", "text": "Vendor README claims an existing free plugin generates matrices. No installation or trial performed."},
+    {"id": "F4", "text": "Official documentation describes annotation search; no one has tried it on F2's files."},
+    {"id": "F5", "text": "Two URLs reproduce F1 verbatim. Visible post says two months ago; search snippet gives a precise date, author edit date unknown."}
+  ],
+  "rubric": [
+    "Do not count F1 as verified evidence about Chinese students.",
+    "Keep quote retrieval and matrix assembly separate rather than combining them into one validated need.",
+    "Group F1 and F5 as one source event, not three users.",
+    "Label F3/F4 as documented claims without hands-on success evidence.",
+    "Do not upgrade snippet dates or unknown edits into exact verified publication dates.",
+    "Recommend a task-level existing-solution trial with observable results and a reuse outcome if it succeeds."
+  ]
+}

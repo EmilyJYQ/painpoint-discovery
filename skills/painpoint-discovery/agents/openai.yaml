@@ -1,0 +1,4 @@
+interface:
+  display_name: "痛点发现与需求调研"
+  short_description: "发现真实痛点、核验需求证据，并形成可追溯的 MVP 开发交接材料"
+  default_prompt: "使用 $painpoint-discovery，围绕我指定的人群或领域发现真实痛点，比较现有替代方案，并给出验证计划与有条件的开发交接。"
